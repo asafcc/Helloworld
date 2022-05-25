@@ -1,2 +1,4 @@
-setInterval(()=>
-window.postMessage({test:true},"*"),1500);
+setTimeout(()=>{
+const input = document.getElementsByClassName("qa-email-textbox")[0]
+console.log(input && input.value);
+},2000);
